@@ -1,0 +1,23 @@
+[
+  {
+    "name": "*.minecraft-services.net*"
+  },
+  {
+    "name": "*meeservices.azurewebsites.net*"
+  },
+  {
+    "name": "*.playfabapi.com*"
+  },
+  {
+    "name": "*.xboxlive.com*"
+  },
+  {
+    "name": "*.minecrafteduservices.com*"
+  },
+  {
+    "name": "*destiny.mpsomaha.org*"
+  },
+  {
+    "name": "205.202.189.37"
+  }
+]

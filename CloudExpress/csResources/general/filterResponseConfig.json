@@ -1,0 +1,17 @@
+{
+  "title": "Blocked By ContentKeeper",
+  "contentType": {
+    "application/json": {
+      "*youtube.com*": {
+        "filterResponse": {
+          "resource": "youtubeBlock.json"
+        }
+      },
+      "*m.youtube.com*": {
+        "filterResponse": {
+          "resource": "youtubeMobileBlock.json"
+        }
+      }
+    }
+  }
+} 

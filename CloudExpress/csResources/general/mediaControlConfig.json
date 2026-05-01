@@ -1,0 +1,139 @@
+[
+  {
+     "domain": "*youtube.com*",
+     "filterAction": {
+       "1": {
+         "name":  "suggestions",
+         "1":  {
+           "list": [
+             {
+               "path":  ["contents","twoColumnWatchNextResults","secondaryResults","secondaryResults","results"],
+               "value": []
+             }
+           ]
+         }
+       },
+       "2": {
+            "name":  "playlist",
+            "1":  {
+              "list": [
+                {
+                  "path":  ["twoColumnWatchNextResults","secondaryResults","secondaryResults", "results"],
+                  "value": []
+                }
+              ]
+            }
+        },
+        "3": {
+            "name":  "comments",
+            "1":  {
+              "list": [
+                {
+                  "path":  ["onResponseReceivedEndpoints","reloadContinuationItemsCommand","continuationItems"],
+                  "value": []
+                }
+              ]
+            }
+        },
+        "4": {
+            "name":  "advertisements",
+            "1":  {
+              "list": [
+                {
+                  "path":  ["adPlacements"],
+                  "value": []
+                }
+              ]
+            }
+        },
+        "5": {
+            "name":  "main page feed",
+            "1":  {
+              "list": [
+                {
+                  "path":  ["contents","twoColumnBrowseResultsRenderer","tabs","tabRenderer","content","richGridRenderer","contents"],
+                  "value": []
+                }
+              ]
+            }
+        },
+        "6": {
+            "name":  "chat replay",
+            "1":  {
+              "list": [
+                {
+                  "path":  ["contents","twoColumnWatchNextResults","conversationBar"],
+                  "value": null
+                }
+              ]
+            }
+        },
+        "7": {
+            "name":  "main page advertisement",
+            "1":  {
+              "list": [
+                {
+                  "path":  ["contents","twoColumnBrowseResultsRenderer","tabs","tabRenderer","content","richGridRenderer","contents","richItemRenderer","content","displayAdRenderer"],
+                  "value": null
+                },
+                {
+                  "path":  ["contents","twoColumnBrowseResultsRenderer","tabs","tabRenderer","content","richGridRenderer","contents","richItemRenderer","content","adSlotRenderer"],
+                  "value": {}
+                }
+              ]
+            }
+        },
+        "8": {
+            "name":  "main page search advertisement",
+            "1":  {
+              "list": [
+                {
+                  "path":  ["contents","twoColumnSearchResultsRenderer","primaryContents","sectionListRenderer","contents","itemSectionRenderer","contents","adSlotRenderer"],
+                  "value": null
+                },
+                {
+                  "path":  ["contents","twoColumnSearchResultsRenderer","primaryContents","sectionListRenderer","contents","itemSectionRenderer","contents","carouselAdRenderer"],
+                  "value": null
+                },
+                {
+                  "path": ["contents","twoColumnSearchResultsRenderer","primaryContents","sectionListRenderer","contents","itemSectionRenderer","contents","promotedSparklesTextSearchRenderer"],
+                  "value": null
+                },
+                {
+                  "path": ["contents","twoColumnSearchResultsRenderer","primaryContents","sectionListRenderer","contents","itemSectionRenderer","contents","searchPyvRenderer","ads"],
+                  "value": []
+                },
+                {
+                  "path": ["contents","twoColumnSearchResultsRenderer","primaryContents","sectionListRenderer","contents","itemSectionRenderer","contents","promotedSparklesWebRenderer"],
+                  "value": null
+                }
+              ]
+            }
+        },
+        "9": {
+          "2": {
+            "list": [
+            {
+              "path": [
+                "microformat",
+                "playerMicroformatRenderer",
+                "category"
+              ],
+              "key": "mc"
+            },
+            {
+              "path": [
+                "microformat",
+                "playerMicroformatRenderer",
+                "title",
+                "simpleText"
+              ],
+              "key": "mt"
+            }
+          ]
+        },
+        "name": "Media Title and Category"
+      }
+     }
+   }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "domain": "*youtube.com*",
+    "path": "/youtubei/v1/search",
+    "args": "*",
+    "post": [
+      {
+        "extractData": {
+          "query": ""
+        },
+        "id": "tag1"
+      }
+    ],
+    "getUrl": "https://www.youtube.com/results?search_query={tag1}"
+  },
+  {
+    "domain": "*m.youtube.com*",
+    "path": "/youtubei/v1/search",
+    "args": "*",
+    "post": [
+      {
+        "extractData": {
+          "query": ""
+        },
+        "id": "tag1"
+      }
+    ],
+    "getUrl": "https://www.youtube.com/results?search_query={tag1}"
+  },
+  {
+    "domain": "*youtube.com*",
+    "path": "youtubei/v1/player",
+    "args": "*",
+    "post": [
+      {
+        "extractData": {
+          "videoId": ""
+        },
+        "id": "tag1"
+      }
+    ],
+    "getUrl": "https://www.youtube.com/watch?v={tag1}"
+  }
+]
